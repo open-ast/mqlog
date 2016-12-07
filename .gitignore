@@ -1,0 +1,92 @@
+### Emacs ###
+# -*- mode: gitignore; -*-
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Org-mode
+.org-id-locations
+*_archive
+
+# flymake-mode
+*_flymake.*
+
+# eshell files
+/eshell/history
+/eshell/lastdir
+
+# elpa packages
+/elpa/
+
+# reftex files
+*.rel
+
+# AUCTeX auto folder
+/auto/
+
+# cask packages
+.cask/
+dist/
+
+# Flycheck
+flycheck_*.el
+
+# server auth directory
+/server/
+
+# projectiles files
+.projectile
+
+# temp. files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+._.DS_Store
+nohup.out
+*.bak
+
+#Emacs
+*.#*
+
+# IDEA
+
+.idea
+*.iml
+
+
+# PYTHON
+
+*.py[co]
+
+# Packages
+*.egg
+*.egg-info
+dist/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+
+#Translations
+*.mo
+
+# Documentation
+plantuml.jar
+_build
+
+*.sublime-*
